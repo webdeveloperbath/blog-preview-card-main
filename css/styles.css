@@ -1,12 +1,30 @@
 /* Colors */
 :root {
-  --Yellow: hsl(47, 88%, 63%);
-  --White: hsl(0, 0%, 100%);
   --Gray-500: hsl(0, 0%, 42%);
   --Gray-950: hsl(0, 0%, 7%);
+  --White: hsl(0, 0%, 100%);
+  --Yellow: hsl(47, 88%, 63%);
+}
+
+html {
+  font-size: 62.5%;
 }
 
 /* Font Styles */
 body {
+  align-items: center;
+  background-color: var(--Yellow);
+  display: flex;
+  flex-direction: column;
   font-family: "Figtree", sans-serif;
+  height: 100vh;
+  justify-content: center;
+}
+
+.card {
+  background-color: var(--White);
+  border-radius: 20px;
+  height: 501px;
+  padding: 2.4rem;
+  width: 327px;
 }
