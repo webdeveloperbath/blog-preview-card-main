@@ -8,6 +8,7 @@
 
 html {
   font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 /* Font Styles */
@@ -23,8 +24,17 @@ body {
 
 .card {
   background-color: var(--White);
+  border: 1px black solid;
   border-radius: 20px;
   height: 501px;
   padding: 2.4rem;
   width: 327px;
+}
+
+.card .art {
+  background-image: url(/assets/images/illustration-article.svg);
+  background-position: center;
+  border-radius: 10px;
+  height: 200px;
+  width: 100%;
 }
