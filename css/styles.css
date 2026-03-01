@@ -5,3 +5,8 @@
   --Gray-500: hsl(0, 0%, 42%);
   --Gray-950: hsl(0, 0%, 7%);
 }
+
+/* Font Styles */
+body {
+  font-family: "Figtree", sans-serif;
+}
