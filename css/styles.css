@@ -9,6 +9,7 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  color: var(--Gray-950);
 }
 
 /* Font Styles */
@@ -26,9 +27,9 @@ body {
   background-color: var(--White);
   border: 1px black solid;
   border-radius: 20px;
-  height: 501px;
+  height: auto;
   padding: 2.4rem;
-  width: 327px;
+  width: 279px;
 }
 
 .card .art {
@@ -37,4 +38,46 @@ body {
   border-radius: 10px;
   height: 200px;
   width: 100%;
+}
+
+.card .card__learning {
+  background-color: var(--Yellow);
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.2rem;
+  margin: 24px 0 12px;
+  padding: 6px 12px;
+}
+
+.card .card__learning:hover {
+  opacity: 0.9;
+  transition: opacity ease-in 0.3s;
+}
+
+.date {
+  display: block;
+  font-size: 1.2rem;
+}
+
+.main-heading {
+  margin: 12px 0;
+}
+
+.description {
+  font-size: 1.4rem;
+  color: var(--Gray-500);
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile .profile__avatar {
+  width: 32px;
+  height: 32px;
+  margin-right: 12px;
 }
