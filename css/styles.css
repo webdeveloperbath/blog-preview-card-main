@@ -10,6 +10,7 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
   color: var(--Gray-950);
+  line-height: 1.5;
 }
 
 /* Font Styles */
@@ -65,19 +66,18 @@ body {
 }
 
 .description {
-  font-size: 1.4rem;
   color: var(--Gray-500);
-  line-height: 1.5;
+  font-size: 1.4rem;
   margin-bottom: 24px;
 }
 
 .profile {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .profile .profile__avatar {
-  width: 32px;
   height: 32px;
   margin-right: 12px;
+  width: 32px;
 }
