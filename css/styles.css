@@ -22,11 +22,12 @@ body {
   font-family: "Figtree", sans-serif;
   height: 100vh;
   justify-content: center;
+  position: relative;
 }
 
 .card {
   background-color: var(--White);
-  border: 1px black solid;
+  border: 1px var(--Gray-950) solid;
   border-radius: 20px;
   height: auto;
   padding: 2.4rem;
@@ -56,7 +57,7 @@ body {
   transition: opacity ease-in 0.3s;
 }
 
-.date {
+.card .date {
   display: block;
   font-size: 1.2rem;
 }
@@ -80,4 +81,49 @@ body {
   height: 32px;
   margin-right: 12px;
   width: 32px;
+}
+
+.attribution {
+  background-color: var(--White);
+  border-radius: 14px;
+  border: 1px var(--Gray-950) solid;
+  margin-top: 20px;
+  padding: 5px 24px;
+  text-align: center;
+  width: 279px;
+}
+
+a:visited,
+a:focus,
+a {
+  color: var(--Gray-950);
+}
+
+@media only screen and (min-width: 1440px) {
+  .card,
+  .attribution {
+    width: 336px;
+  }
+
+  .card .card__learning {
+    font-weight: bold;
+    padding: 4px 12px;
+  }
+
+  .card .card__learning,
+  .card .date {
+    font-size: 1.4rem;
+  }
+
+  .main-heading {
+    font-size: 2.4rem;
+  }
+
+  .main-heading:hover {
+    color: var(--Yellow);
+  }
+
+  .description {
+    font-size: 1.6rem;
+  }
 }
