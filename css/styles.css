@@ -32,6 +32,7 @@ body {
   height: auto;
   padding: 2.4rem;
   width: 279px;
+  box-shadow: 8px 8px #000;
 }
 
 .card .art {
